@@ -1,0 +1,22 @@
+{
+    "full_name": "Mustpaha Ibrahim",
+    "name": "Moose",
+    "current_role": "Freelance Algorithmic Trader",
+    "location": "Canada and UK",
+    "email": "mustapha@gmail.com",
+    "linkedin": "linkedin.com/in/mustaphaibrahim",
+    "specialties": [
+      "Algorithmic Trading",
+      "Chess",
+      "Reading",
+      "Learning"
+    ],
+    "years_experience": 10,
+    "education": [
+      {
+        "degree": "Accounting and Finance",
+        "institution": "Algonquin College",
+        "year": "2010"
+      }
+    ]
+  }
