@@ -20,7 +20,7 @@ terraform init -input=false
 
 # New lines:
 $awsAccountId = aws sts get-caller-identity --query Account --output text
-$awsRegion = if ($env:DEFAULT_AWS_REGION) { $env:DEFAULT_AWS_REGION } else { "us-east-2" }
+AWS_REGION=${DEFAULT_AWS_REGION:-us-east-2}
 terraform init -input=false `
   -backend-config="bucket=twin-terraform-state-$awsAccountId-v2" `
   -backend-config="key=$Environment/terraform.tfstate" `
